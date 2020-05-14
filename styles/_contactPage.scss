@@ -1,0 +1,783 @@
+@media screen and (min-width: 1481px) {
+    #contact-page {
+    height: 50vh;
+    width: 100%;
+    background: $color5;
+}
+
+.contact-page-wrapp {
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.contact-page-wrapp-display {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.contact-page-container-1 {
+    flex: 1;
+    width: 100%;
+    display: flex;
+
+    .contact-page-heading-1, .contact-page-heading-3  {
+        flex: 2;
+        display: flex;
+        align-items: center; 
+
+        .contact-line {
+            height: 3px;
+            width: 100px;
+            background: $color3;
+        }
+    }
+
+    .contact-page-heading-1 {
+        justify-content: flex-end;
+    }
+
+    .contact-page-heading-3 {
+        justify-content: flex-start;
+    }
+
+    .contact-page-heading-2 {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;     
+        
+        p {
+            font-size: 42px;
+            color: $color1;
+            font-weight: bold;
+        }
+    }
+}
+
+.contact-page-container-2 {
+    width: 50%;
+    margin-left: 25%;
+    flex: 2;
+
+}
+
+.contact-page-content-1 {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .contact-mail-container {
+        height: 10vh;
+        width: 40%;
+        //line-height: 8vh;
+        text-align: center;
+        
+        p {
+            color: $color1;
+            font-size: 24px;
+        }
+    }
+}
+
+.contact-page-content-2 {
+    height: 50%;
+    width: 100%;  
+    display: flex;
+}
+
+.contact-socialmedia-1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .contact-socialmedia-line {
+        height: 1px;
+        width: 100%;
+        background: $color6;
+    }
+}
+
+.contact-socialmedia-2 {
+    flex: 3;
+
+    ul {
+        height: 100%;
+        width: 100%;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        li {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            a {
+                color: $color1;
+                text-decoration: none;
+
+                i {
+                    color: $color1;
+                    font-size: 34px;
+                }
+
+                i:hover {
+                    transition: 0.6s;
+                    color: $color3;
+                }
+            }
+        }
+    }
+}
+
+.contact-socialmedia-3 {
+    flex: 1;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .contact-socialmedia-line {
+        height: 1px;
+        width: 100%;
+        background: $color6;
+    }
+}
+}
+
+
+@media (min-width: 1081px) and (max-width: 1480px) {
+    #contact-page {
+    height: 50vh;
+    width: 100%;
+    background: $color5;
+}
+
+.contact-page-wrapp {
+    height: 100%;
+    width: 100%;
+    //margin-left: 10%;
+}
+
+.contact-page-wrapp-display {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.contact-page-container-1 {
+    flex: 1;
+    width: 100%;
+    display: flex;
+
+    .contact-page-heading-1, .contact-page-heading-3  {
+        flex: 2;
+        display: flex;
+        align-items: center; 
+
+        .contact-line {
+            height: 3px;
+            width: 100px;
+            background: $color3;
+        }
+    }
+
+    .contact-page-heading-1 {
+        justify-content: flex-end;
+    }
+
+    .contact-page-heading-3 {
+        justify-content: flex-start;
+    }
+
+    .contact-page-heading-2 {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;     
+        
+        p {
+            font-size: 42px;
+            color: $color1;
+            font-weight: bold;
+        }
+    }
+}
+
+.contact-page-container-2 {
+    width: 50%;
+    margin-left: 25%;
+    flex: 2;
+
+}
+
+.contact-page-content-1 {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .contact-mail-container {
+        height: 10vh;
+        width: 40%;
+        //line-height: 8vh;
+        text-align: center;
+        
+        p {
+            color: $color1;
+            font-size: 24px;
+        }
+    }
+}
+
+.contact-page-content-2 {
+    height: 50%;
+    width: 100%;  
+    display: flex;
+}
+
+.contact-socialmedia-1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .contact-socialmedia-line {
+        height: 1px;
+        width: 100%;
+        background: $color6;
+    }
+}
+
+.contact-socialmedia-2 {
+    flex: 3;
+
+    ul {
+        height: 100%;
+        width: 100%;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        li {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            a {
+                color: $color1;
+                text-decoration: none;
+
+                i {
+                    color: $color1;
+                    font-size: 34px;
+                }
+
+                i:hover {
+                    transition: 0.6s;
+                    color: $color3;
+                }
+            }
+        }
+    }
+}
+
+.contact-socialmedia-3 {
+    flex: 1;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .contact-socialmedia-line {
+        height: 1px;
+        width: 100%;
+        background: $color6;
+    }
+}
+}
+
+
+@media (min-width: 780px) and (max-width: 1080px) {
+        #contact-page {
+        height: 50vh;
+        width: 100%;
+        background: $color5;
+        }
+
+    .contact-page-wrapp {
+        height: 100%;
+        width: 100%;
+        //margin-left: 10%;
+    }
+
+    .contact-page-wrapp-display {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    .contact-page-container-1 {
+        flex: 1;
+        width: 100%;
+        display: flex;
+
+        .contact-page-heading-1, .contact-page-heading-3  {
+            flex: 1;
+            display: flex;
+            align-items: center; 
+
+            .contact-line {
+                height: 3px;
+                width: 100px;
+                background: $color3;
+            }
+        }
+
+        .contact-page-heading-1 {
+            justify-content: flex-end;
+        }
+
+        .contact-page-heading-3 {
+            justify-content: flex-start;
+        }
+
+        .contact-page-heading-2 {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;     
+            
+            p {
+                font-size: 42px;
+                color: $color1;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .contact-page-container-2 {
+        width: 50%;
+        margin-left: 25%;
+        flex: 2;
+
+    }
+
+    .contact-page-content-1 {
+        height: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .contact-mail-container {
+            height: 10vh;
+            width: 100%;
+            //line-height: 8vh;
+            text-align: center;
+            
+            p {
+                color: $color1;
+                font-size: 24px;
+            }
+        }
+    }
+
+    .contact-page-content-2 {
+        height: 50%;
+        width: 100%;  
+        display: flex;
+    }
+
+    .contact-socialmedia-1 {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .contact-socialmedia-line {
+            height: 1px;
+            width: 100%;
+            background: $color6;
+        }
+    }
+
+    .contact-socialmedia-2 {
+        flex: 3;
+
+        ul {
+            height: 100%;
+            width: 100%;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            li {
+                flex: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                a {
+                    color: $color1;
+                    text-decoration: none;
+
+                    i {
+                        color: $color1;
+                        font-size: 34px;
+                    }
+
+                    i:hover {
+                        transition: 0.6s;
+                        color: $color3;
+                    }
+                }
+            }
+        }
+    }
+
+    .contact-socialmedia-3 {
+        flex: 1;    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .contact-socialmedia-line {
+            height: 1px;
+            width: 100%;
+            background: $color6;
+        }
+    }
+
+    .contact-mail-container {
+        text-align: center;
+    }
+}
+
+@media (min-width: 680px) and (max-width: 779px) {
+    #contact-page {
+        height: 50vh;
+        width: 100%;
+        background: $color5;
+        }
+
+    .contact-page-wrapp {
+        height: 100%;
+        width: 100%;
+        //margin-left: 10%;
+    }
+
+    .contact-page-wrapp-display {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    .contact-page-container-1 {
+        flex: 1;
+        width: 100%;
+        display: flex;
+
+        .contact-page-heading-1, .contact-page-heading-3  {
+            flex: 1;
+            display: flex;
+            align-items: center; 
+
+            .contact-line {
+                height: 3px;
+                width: 100px;
+                background: $color3;
+            }
+        }
+
+        .contact-page-heading-1 {
+            justify-content: flex-end;
+        }
+
+        .contact-page-heading-3 {
+            justify-content: flex-start;
+        }
+
+        .contact-page-heading-2 {
+            flex: 2;
+            display: flex;
+            justify-content: center;
+            align-items: center;     
+            
+            p {
+                font-size: 42px;
+                color: $color1;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .contact-page-container-2 {
+        width: 94%;
+        margin-left: 3%;
+        flex: 2;
+
+    }
+
+    .contact-page-content-1 {
+        height: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .contact-mail-container {
+            height: 10vh;
+            width: 40%;
+            //line-height: 8vh;
+            text-align: center;
+            
+            p {
+                color: $color1;
+                font-size: 24px;
+            }
+        }
+    }
+
+    .contact-page-content-2 {
+        height: 50%;
+        width: 100%;  
+        display: flex;
+    }
+
+    .contact-socialmedia-1 {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .contact-socialmedia-line {
+            height: 1px;
+            width: 100%;
+            background: $color6;
+        }
+    }
+
+    .contact-socialmedia-2 {
+        flex: 3;
+
+        ul {
+            height: 100%;
+            width: 100%;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            li {
+                flex: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                a {
+                    color: $color1;
+                    text-decoration: none;
+
+                    i {
+                        color: $color1;
+                        font-size: 34px;
+                    }
+
+                    i:hover {
+                        transition: 0.6s;
+                        color: $color3;
+                    }
+                }
+            }
+        }
+    }
+
+    .contact-socialmedia-3 {
+        flex: 1;    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .contact-socialmedia-line {
+            height: 1px;
+            width: 100%;
+            background: $color6;
+        }
+    }
+
+    .contact-mail-container {
+        text-align: center;
+    }
+}
+
+@media (max-width: 680px) {
+    #contact-page {
+        height: 50vh;
+        width: 100%;
+        background: $color5;
+        }
+
+    .contact-page-wrapp {
+        height: 100%;
+        width: 100%;
+        //margin-left: 10%;
+    }
+
+    .contact-page-wrapp-display {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    .contact-page-container-1 {
+        flex: 1;
+        width: 100%;
+        display: flex;
+
+        .contact-page-heading-1, .contact-page-heading-3  {
+            flex: 1;
+            display: flex;
+            align-items: center; 
+
+            .contact-line {
+                height: 3px;
+                width: 35px;
+                background: $color3;
+            }
+        }
+
+        .contact-page-heading-1 {
+            justify-content: flex-end;
+        }
+
+        .contact-page-heading-3 {
+            justify-content: flex-start;
+        }
+
+        .contact-page-heading-2 {
+            flex: 5;
+            display: flex;
+            justify-content: center;
+            align-items: center;     
+            
+            p {
+                font-size: 34px;
+                color: $color1;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .contact-page-container-2 {
+        width: 94%;
+        margin-left: 3%;
+        flex: 2;
+
+    }
+
+    .contact-page-content-1 {
+        height: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .contact-mail-container {
+            height: 10vh;
+            width: 100%;
+            //line-height: 8vh;
+            text-align: center;
+            
+            p {
+                color: $color1;
+                font-size: 22px;
+            }
+        }
+    }
+
+    .contact-page-content-2 {
+        height: 50%;
+        width: 100%;  
+        display: flex;
+    }
+
+    .contact-socialmedia-1 {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .contact-socialmedia-line {
+            height: 1px;
+            width: 100%;
+            background: $color6;
+        }
+    }
+
+    .contact-socialmedia-2 {
+        flex: 3;
+
+        ul {
+            height: 100%;
+            width: 100%;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            li {
+                flex: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                a {
+                    color: $color1;
+                    text-decoration: none;
+
+                    i {
+                        color: $color1;
+                        font-size: 26px;
+                    }
+
+                    i:hover {
+                        transition: 0.6s;
+                        color: $color3;
+                    }
+                }
+            }
+        }
+    }
+
+    .contact-socialmedia-3 {
+        flex: 1;    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .contact-socialmedia-line {
+            height: 1px;
+            width: 100%;
+            background: $color6;
+        }
+    }
+
+    .contact-mail-container {
+        text-align: center;
+    }
+}

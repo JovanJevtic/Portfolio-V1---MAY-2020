@@ -1,0 +1,52 @@
+@media screen and (max-width: 800px) {
+    .cursor {
+        position: fixed;
+        left: 0;
+        top: 0;
+        pointer-events: none;
+        display: none;
+    }
+
+    .cursor--small {
+        width: 5px;
+        height: 5px;
+        left: -2.5px;
+        top: -2.5px;
+        border-radius: 50%;
+        z-index: 11000;
+        background: $color6;
+        display: none;
+    }
+
+    .cursor--canvas {
+        width: 100vw;
+        height: 100vh;
+        z-index: 12000;
+        display: none;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .cursor {
+        position: fixed;
+        left: 0;
+        top: 0;
+        pointer-events: none;
+}
+
+    .cursor--small {
+        width: 5px;
+        height: 5px;
+        left: -2.5px;
+        top: -2.5px;
+        border-radius: 50%;
+        z-index: 11000;
+        background: $color6;
+    }
+
+    .cursor--canvas {
+        width: 100vw;
+        height: 100vh;
+        z-index: 12000;
+    }
+}

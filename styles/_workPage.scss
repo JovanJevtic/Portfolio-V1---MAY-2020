@@ -1,0 +1,456 @@
+@media screen and (min-width: 1581px) {
+    #work-page {
+    height: 90vh;
+    width: 100%;
+    background: $color2;
+    display: flex;
+    flex-direction: column;
+
+    .work-heading-wrapp {
+        flex: 2;
+        display: flex;
+        /*justify-content: center;
+        align-items: center;*/
+
+        .work-heading-wrapp-1 {
+            flex: 3;         
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+   
+            .work-line {
+                height: 3px;
+                width: 105px;
+                background: $color3;
+            }
+        }
+
+        .work-heading-wrapp-2 {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            h1 {
+                color: $color1;
+                font-size: 42px;
+            }
+        }
+
+        .work-heading-wrapp-3 {
+            flex: 3;         
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+    
+            .work-line {
+                height: 3px;
+                width: 105px;
+                background: $color3;
+            }
+        }
+    }
+
+    .work-content-wrapp {
+        flex: 5;
+
+        .work-content-grid {
+            height: 100%;
+            width: 80%;
+            margin-left: 10%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr ;
+
+            .work-card-wrapp {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+
+    .work-desc-wrapp {
+        flex: 1;
+
+        .work-desc-content {
+            height: 100%;
+            width: 80%;
+            margin-left: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            p {
+                color: $color4;
+            }
+        }
+    }
+}
+}
+
+@media (min-width: 1281px) and (max-width: 1580px) {
+    #work-page {
+    height: 90vh;
+    width: 100%;
+    background: $color2;
+    display: flex;
+    flex-direction: column;
+
+    .work-heading-wrapp {
+        flex: 2;
+        display: flex;
+        /*justify-content: center;
+        align-items: center;*/
+
+        .work-heading-wrapp-1 {
+            flex: 3;         
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+   
+            .work-line {
+                height: 3px;
+                width: 105px;
+                background: $color3;
+            }
+        }
+
+        .work-heading-wrapp-2 {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            h1 {
+                color: $color1;
+                font-size: 42px;
+            }
+        }
+
+        .work-heading-wrapp-3 {
+            flex: 3;         
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+    
+            .work-line {
+                height: 3px;
+                width: 105px;
+                background: $color3;
+            }
+        }
+    }
+
+    .work-content-wrapp {
+        flex: 5;
+
+        .work-content-grid {
+            height: 100%;
+            width: 100%;
+            margin-left: 0%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr ;
+
+            .work-card-wrapp {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+
+    .work-desc-wrapp {
+        flex: 1;
+
+        .work-desc-content {
+            height: 100%;
+            width: 100%;
+            margin-left: 0%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            p {
+                color: $color4;
+            }
+        }
+    }
+}
+}
+
+@media (min-width: 1081px) and (max-width: 1280px) {
+        #work-page {
+        height: 200vh;
+        width: 100%;
+        background: $color2;
+        display: flex;
+        flex-direction: column;
+
+        .work-heading-wrapp {
+            flex: 1;
+            display: flex;
+            /*justify-content: center;
+            align-items: center;*/
+
+            .work-heading-wrapp-1 {
+                flex: 1;         
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+    
+                .work-line {
+                    height: 3px;
+                    width: 105px;
+                    background: $color3;
+                }
+            }
+
+            .work-heading-wrapp-2 {
+                flex: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                h1 {
+                    color: $color1;
+                    font-size: 42px;
+                }
+            }
+
+            .work-heading-wrapp-3 {
+                flex: 1;         
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+        
+                .work-line {
+                    height: 3px;
+                    width: 105px;
+                    background: $color3;
+                }
+            }
+        }
+
+        .work-content-wrapp {
+            flex: 5;
+
+            .work-content-grid {
+                height: 100%;
+                width: 100%;
+                margin-left: 0%;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+
+                .work-card-wrapp {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+
+        .work-desc-wrapp {
+            flex: 1;
+
+            .work-desc-content {
+                height: 100%;
+                width: 100%;
+                margin-left: 0%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                p {
+                    color: $color4;
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 681px) and (max-width: 1080px) {
+        #work-page {
+        height: 280vh;
+        width: 100%;
+        background: $color2;
+        display: flex;
+        flex-direction: column;
+
+        .work-heading-wrapp {
+            flex: 1;
+            display: flex;
+            /*justify-content: center;
+            align-items: center;*/
+
+            .work-heading-wrapp-1 {
+                flex: 1;         
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+    
+                .work-line {
+                    height: 3px;
+                    width: 105px;
+                    background: $color3;
+                }
+            }
+
+            .work-heading-wrapp-2 {
+                flex: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                h1 {
+                    color: $color1;
+                    font-size: 42px;
+                }
+            }
+
+            .work-heading-wrapp-3 {
+                flex: 1;         
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+        
+                .work-line {
+                    height: 3px;
+                    width: 105px;
+                    background: $color3;
+                }
+            }
+        }
+
+        .work-content-wrapp {
+            flex: 7;
+
+            .work-content-grid {
+                height: 100%;
+                width: 100%;
+                margin-left: 0%;
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr 1fr;
+
+                .work-card-wrapp {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+
+        .work-desc-wrapp {
+            flex: 1;
+
+            .work-desc-content {
+                height: 100%;
+                width: 100%;
+                margin-left: 0%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                p {
+                    color: $color4;
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 680px) {
+    #work-page {
+        height: 350vh;
+        width: 100%;
+        background: $color2;
+        display: flex;
+        flex-direction: column;
+
+        .work-heading-wrapp {
+            flex: 1;
+            display: flex;
+            /*justify-content: center;
+            align-items: center;*/
+
+            .work-heading-wrapp-1 {
+                flex: 1;         
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+    
+                .work-line {
+                    height: 3px;
+                    width: 35px;
+                    background: $color3;
+                }
+            }
+
+            .work-heading-wrapp-2 {
+                flex: 5;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                h1 {
+                    color: $color1;
+                    font-size: 42px;
+                }
+            }
+
+            .work-heading-wrapp-3 {
+                flex: 1;         
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+        
+                .work-line {
+                    height: 3px;
+                    width: 35px;
+                    background: $color3;
+                }
+            }
+        }
+
+        .work-content-wrapp {
+            flex: 7;
+
+            .work-content-grid {
+                height: 100%;
+                width: 100%;
+                margin-left: 0%;
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr 1fr;
+
+                .work-card-wrapp {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+
+        .work-desc-wrapp {
+            flex: 1;
+
+            .work-desc-content {
+                height: 100%;
+                width: 100%;
+                margin-left: 0%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                p {
+                    color: $color4;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
