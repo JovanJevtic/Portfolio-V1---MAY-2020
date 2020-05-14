@@ -566,6 +566,11 @@ span.fades {
 }
 
 @media screen and (max-width: 680px) {
+
+    html {
+        overflow-x: hidden;
+    }
+
      .landing-page {
         height: 210vh;
         width: 100%;

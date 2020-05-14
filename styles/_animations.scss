@@ -1,0 +1,607 @@
+@media screen and (min-width: 1280px) {
+    .animated-txt {
+        opacity: 0;
+        transform: translateY(50px);
+        transition: 0.6s all ease-in-out;
+    }
+
+    .animated-txt-fade {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .animated-btn1 {
+        opacity: 0;
+        transform: translateY(50px);
+        transition: 0.6s all ease-in-out;
+    }
+
+    .animated-btn1-fade {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .animated-btn2 {
+        opacity: 0;
+        transform: translateY(50px);
+        transition: 0.6s all ease-in-out;
+    }
+
+    .animated-btn2-fade {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .animated-logo {
+        opacity: 0;
+        transform: translateX(200px);
+        transition: 0.6s all ease-in-out;
+    }
+
+    .animated-logo-fade {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .animated-about {
+        opacity: 0;
+        transform: translateX(200px);
+        transition: 0.8s all ease-in-out;
+    }
+
+    .animated-about-fade {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    #scroll-arrow {
+        position: absolute;
+        font-size: 36px;
+        left: 50%;
+        top: 90%;
+        animation: arrow-animation infinite;
+        animation-duration: 2s;
+        opacity: 0;
+    }
+
+    @keyframes arrow-animation {
+
+        0% {
+            position: absolute;
+            font-size: 36px;
+            left: 50%;
+            top: 90%;
+            transition: ease-in-out;
+        }
+
+        25% {
+            position: absolute;
+            font-size: 36px;
+            left: 50%;
+            top: 93%;
+            transition: ease-in-out;
+        }
+
+        50% {
+            position: absolute;
+            font-size: 36px;
+            left: 50%;
+            top: 90%;
+            transition: ease-in-out;
+        }
+
+        75% {
+            position: absolute;
+            font-size: 36px;
+            left: 50%;
+            top: 90%;
+            transition: ease-in-out;
+        }
+
+        100% {
+            position: absolute;
+            font-size: 36px;
+            left: 50%;
+            top: 90%;
+            transition: ease-in-out;
+        }   
+
+    }
+
+    .animated-txt-work {
+        opacity: 0;
+        transform: translateX(50px);
+        transition: 0.8s all ease-in-out;
+    }
+
+    .animated-txt-work-fade {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .animated-skills-txt {
+        opacity: 0;
+        transform: translateX(-50px);
+        transition: 0.8s all ease-in-out;
+    }
+
+    .animated-skills-txt-fade {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .animated-skills-card-1 {
+        opacity: 0;
+        transform: translateX(-150px);
+        transition: 0.8s all ease-in-out;
+    }
+
+    .animated-skills-card-1-fade {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .animated-skills-card-2 {
+        opacity: 0;
+        transform: translateX(250px);
+        transition: 1s all ease-in-out;
+    }
+
+    .animated-skills-card-2-fade {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    .animated-skills-card-3 {
+        opacity: 0;
+        transform: translateX(-140px);
+        transition: 1.2s all ease-in-out;
+    }
+
+    .animated-skills-card-3-fade {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .animated-skills-card-4 {
+        opacity: 0;
+        transform: translateX(-350px);
+        transition: 1.4s all ease-in-out;
+    }
+
+    .animated-skills-card-4-fade {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .animated-skills-card-5 {
+        opacity: 0;
+        transform: translateX(130px);
+        transition: 1.6s all ease-in-out;
+    }
+
+    .animated-skills-card-5-fade {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .animated-skills-card-6 {
+        opacity: 0;
+        transform: translateX(2140px);
+        transition: 1.8s all ease-in-out;
+    }
+
+    .animated-skills-card-6-fade {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    html {
+        overflow-x: hidden;
+    }
+
+    .animated-work-card-1 {
+        opacity: 0;
+        transform: translateX(-140px);
+        transition: .8s all ease-in-out;
+    }
+
+    .animated-work-card-1-fade {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .animated-work-card-2 {
+        opacity: 0;
+        transform: translateX(-340px);
+        transition: 1.4s all ease-in-out;
+    }
+
+    .animated-work-card-2-fade {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .animated-work-card-3 {
+        opacity: 0;
+        transform: translateX(240px);
+        transition: .8s all ease-in-out;
+    }
+
+    .animated-work-card-3-fade {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .animated-about2 {
+        opacity: 0;
+        transform: translateX(-240px);
+        transition: 0.8s all ease-in-out;
+    }
+
+    .animated-about2-fade {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .animated-contact-txt {
+        opacity: 0;
+        transform: translateY(160px);
+        transition: 0.8s all ease-in-out;
+    }
+
+    .animated-contact-txt-fade {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .animated-contact-txt-2 {
+        opacity: 0;
+        transform: translateX(150px);
+        transition: 0.8s all ease-in-out;
+    }
+
+    .animated-contact-txt-2-fade {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .animated-contact-icon1 {
+        opacity: 0;
+        transform: translateY(50px);
+        transition: 0.8s all ease-in-out;
+    }
+
+    .animated-contact-icon1-fade {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .animated-contact-icon2 {
+        opacity: 0;
+        transform: translateY(-50px);
+        transition: 0.8s all ease-in-out;
+    }
+
+    .animated-contact-icon2-fade {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .animated-contact-icon3 {
+        opacity: 0;
+        transform: translateY(50px);
+        transition: 0.8s all ease-in-out;
+    }
+
+    .animated-contact-icon3-fade {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+//////////////////////////////////////
+
+
+
+@media screen and (max-width: 1279px) {
+    .animated-txt {
+        opacity: 0;
+        transform: translateY(50px);
+        transition: 0.6s all ease-in-out;
+    }
+
+    .animated-txt-fade {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .animated-btn1 {
+        opacity: 0;
+        transform: translateY(50px);
+        transition: 0.6s all ease-in-out;
+    }
+
+    .animated-btn1-fade {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .animated-btn2 {
+        opacity: 0;
+        transform: translateY(50px);
+        transition: 0.6s all ease-in-out;
+    }
+
+    .animated-btn2-fade {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .animated-logo {
+        opacity: 0;
+        transform: translateY(200px);
+        transition: 0.6s all ease-in-out;
+    }
+
+    .animated-logo-fade {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .animated-about {
+        opacity: 0;
+        transform: translateY(200px);
+        transition: 0.8s all ease-in-out;
+    }
+
+    .animated-about-fade {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    #scroll-arrow {
+        position: absolute;
+        font-size: 36px;
+        left: 50%;
+        top: 90%;
+        animation: arrow-animation infinite;
+        animation-duration: 2s;
+        opacity: 0;
+    }
+
+    @keyframes arrow-animation {
+
+        0% {
+            position: absolute;
+            font-size: 36px;
+            left: 50%;
+            top: 90%;
+            transition: ease-in-out;
+        }
+
+        25% {
+            position: absolute;
+            font-size: 36px;
+            left: 50%;
+            top: 93%;
+            transition: ease-in-out;
+        }
+
+        50% {
+            position: absolute;
+            font-size: 36px;
+            left: 50%;
+            top: 90%;
+            transition: ease-in-out;
+        }
+
+        75% {
+            position: absolute;
+            font-size: 36px;
+            left: 50%;
+            top: 90%;
+            transition: ease-in-out;
+        }
+
+        100% {
+            position: absolute;
+            font-size: 36px;
+            left: 50%;
+            top: 90%;
+            transition: ease-in-out;
+        }   
+
+    }
+
+    .animated-txt-work {
+        opacity: 0;
+        transform: translateY(50px);
+        transition: 0.8s all ease-in-out;
+    }
+
+    .animated-txt-work-fade {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .animated-skills-txt {
+        opacity: 0;
+        transform: translateY(-50px);
+        transition: 0.8s all ease-in-out;
+    }
+
+    .animated-skills-txt-fade {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .animated-skills-card-1 {
+        opacity: 0;
+        transform: translateY(-50px);
+        transition: 0.8s all ease-in-out;
+    }
+
+    .animated-skills-card-1-fade {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .animated-skills-card-2 {
+        opacity: 0;
+        transform: translateY(50px);
+        transition: 1s all ease-in-out;
+    }
+
+    .animated-skills-card-2-fade {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    .animated-skills-card-3 {
+        opacity: 0;
+        transform: translateY(-40px);
+        transition: 1.2s all ease-in-out;
+    }
+
+    .animated-skills-card-3-fade {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .animated-skills-card-4 {
+        opacity: 0;
+        transform: translateY(-50px);
+        transition: 1.4s all ease-in-out;
+    }
+
+    .animated-skills-card-4-fade {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .animated-skills-card-5 {
+        opacity: 0;
+        transform: translateY(30px);
+        transition: 1.6s all ease-in-out;
+    }
+
+    .animated-skills-card-5-fade {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .animated-skills-card-6 {
+        opacity: 0;
+        transform: translateY(40px);
+        transition: 1.8s all ease-in-out;
+    }
+
+    .animated-skills-card-6-fade {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    html {
+        overflow-x: hidden;
+    }
+
+    .animated-work-card-1 {
+        opacity: 0;
+        transform: translateY(-40px);
+        transition: .8s all ease-in-out;
+    }
+
+    .animated-work-card-1-fade {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .animated-work-card-2 {
+        opacity: 0;
+        transform: translateY(-40px);
+        transition: 1.4s all ease-in-out;
+    }
+
+    .animated-work-card-2-fade {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .animated-work-card-3 {
+        opacity: 0;
+        transform: translateY(40px);
+        transition: .8s all ease-in-out;
+    }
+
+    .animated-work-card-3-fade {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .animated-about2 {
+        opacity: 0;
+        transform: translateY(-40px);
+        transition: 0.8s all ease-in-out;
+    }
+
+    .animated-about2-fade {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .animated-contact-txt {
+        opacity: 0;
+        transform: translateY(60px);
+        transition: 0.8s all ease-in-out;
+    }
+
+    .animated-contact-txt-fade {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .animated-contact-txt-2 {
+        opacity: 0;
+        transform: translateY(50px);
+        transition: 0.8s all ease-in-out;
+    }
+
+    .animated-contact-txt-2-fade {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .animated-contact-icon1 {
+        opacity: 0;
+        transform: translateY(50px);
+        transition: 0.8s all ease-in-out;
+    }
+
+    .animated-contact-icon1-fade {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .animated-contact-icon2 {
+        opacity: 0;
+        transform: translateY(-50px);
+        transition: 0.8s all ease-in-out;
+    }
+
+    .animated-contact-icon2-fade {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .animated-contact-icon3 {
+        opacity: 0;
+        transform: translateY(50px);
+        transition: 0.8s all ease-in-out;
+    }
+
+    .animated-contact-icon3-fade {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
