@@ -365,10 +365,12 @@
         position: absolute;
         font-size: 36px;
         left: 50%;
-        top: 90%;
+        margin-top: 130vh;
+        background: red;
         animation: arrow-animation infinite;
         animation-duration: 2s;
         opacity: 0;
+        display: none;
     }
 
     @keyframes arrow-animation {

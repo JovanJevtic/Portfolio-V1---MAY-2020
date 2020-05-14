@@ -289,9 +289,18 @@
 }
 
 @media screen and (max-width: 680px) {
+
+    .about-wrapp-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     #about-page2 {
         //height: 180vh;
-        height: 650vh;
+
+        min-height: 2600px;
+        max-height: 5000px;
         //background: $color5;
         background: $color2;
         display: flex;
@@ -302,10 +311,12 @@
         .about-wrapp {
             height: 100vh;
             width: 92%;
-            background: $color1;
+           // background: $color1;
             display: flex;
             //box-shadow: 5px 5px 1px 5px  $color1;
             flex-direction: column;
+            justify-content: center;
+            align-items: center;
 
             .about-wrapp-img-wrapp {
                 flex: 1;
@@ -1058,17 +1069,21 @@
     }
 
     .about-wrapp-container {
-        flex: 1;
+        flex: 2;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column; 
         width: 100%;
+        min-height: 1200px;
+        max-height: 1800px;
     }
 
     .about-skills-wrapp {
-        flex: 3;
+        flex: 5;
         width: 100%;
+        min-height: 1600px;
+        max-height: 2900px;
     }
 
     .about-skills-container {
@@ -1106,9 +1121,10 @@
             border-radius: 2px;
             background: $color7;    
             box-shadow: 3px 3px 7px 3px $color10;
+            min-width: 310px;
             max-width: 420px;
-            min-width: 300px;
-            min-height: 300px;
+            height: 300px;
+            //max-height: 440px;
         }
 
     .skills-card:hover {
