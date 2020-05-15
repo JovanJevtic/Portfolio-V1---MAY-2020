@@ -45,18 +45,11 @@
 
 
 <body>
-    
+
+    <div id="particles-js" style="height: 100vh; width: 100%; position: fixed; background: radial-gradient(circle, rgba(25,25,25,1) 55%, rgba(0,0,0,1) 100%);" ></div>
+
     <div class="cursor cursor--small"></div>
     <canvas class="cursor cursor--canvas" resize></canvas>
-
-
-    <!--
-    <div id="loading-wrapper">
-      <p>Loading...</p>
-      <div class="loading">
-        <span></span>
-      </div>
-    </div>-->
 
     <div class="page-container">
 
@@ -129,7 +122,9 @@
       </section>
 
       <section id="about-page2">
-        <div class="about-wrapp-container">
+        
+
+          <div class="about-wrapp-container">
           <div class="about-wrapp animated-about">
           <div class="about-wrapp-img-wrapp">
             <svg
@@ -741,6 +736,8 @@
             </div>
           </div>
         </div>
+
+        
       </section>
 
       <section id="work-page">
@@ -947,7 +944,7 @@
         </div>
       </section>
 
-      <section id="contact-page">
+      <section style="z-index: 50;" id="contact-page">
 
         <div class="contact-page-wrapp">
 
@@ -1008,7 +1005,7 @@
 
       </section>
 
-      <section id="footer">
+      <section style="z-index: 50;" id="footer">
  
         <p>Copyright © - Jovan Jevtic</p>
 
@@ -1034,6 +1031,9 @@
     <script src="/scripts/cursor.js"></script>
     <script src="/scripts/loadingAnimation.js"></script>
     <script src="/scripts/cardAnimation.js"></script>
+
+    <script src="/scripts/particles/particles.js"></script>
+    <script src="/scripts/particles/app.js"></script>
 
 
 </body>

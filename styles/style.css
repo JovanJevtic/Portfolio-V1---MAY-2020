@@ -459,13 +459,10 @@
   .landing-page {
     height: 90vh;
     width: 100%;
-    background: #181818;
     background-size: cover;
     background-position: center;
   }
   .landing-page .landing-page-opacity {
-    background: #181818;
-    opacity: 0.9;
     position: absolute;
     height: 90vh;
     width: 100%;
@@ -6364,5 +6361,12 @@ a {
 svg {
   height: 10%;
   width: 10%;
+}
+
+.aboout-page-opacity {
+  background: #181818;
+  opacity: 0.9;
+  height: 100%;
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
