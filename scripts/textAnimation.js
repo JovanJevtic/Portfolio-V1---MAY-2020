@@ -86,7 +86,7 @@ function scrollAppearLogo() {
 setTimeout(scrollAppearLogo, 7000);
 
 function scrollEnable() {
-    page = document.querySelector('html').style.overflowY = 'auto';
+    var page = document.querySelector('html');
 }
 
 setTimeout(scrollEnable, 9500);
@@ -112,7 +112,6 @@ function scrollAppear() {
 
     if (about2Position < screenPosition) {
         about2.classList.add('animated-about2-fade');
-        console.log(about2);
     }
  
     if (txt3Position < screenPosition) {

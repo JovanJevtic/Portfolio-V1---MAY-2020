@@ -1895,17 +1895,13 @@ span.fades {
             box-shadow: 3px 3px 7px 3px #0d0c0a;
   }
   .about-skills-card-container .skills-card:hover {
-    margin-top: -30px;
-    -webkit-transition: 0.4s;
-    transition: 0.4s;
+    margin-top: 0px;
   }
   .about-skills-card-container .skills-card:hover .skills-card-margined .skills-card-content-wrapp .skills-card-content-2 p {
     color: #08e4c2;
   }
   .about-skills-card-container .skills-card:hover .skills-card-margined .skills-card-content-wrapp .skills-card-content-1 .skills-card-icon-wrapp i {
     color: #08e4c2;
-    -webkit-transition: 0.6s;
-    transition: 0.6s;
   }
   .skills-card-margined {
     width: 90%;
@@ -5932,8 +5928,8 @@ span.fades {
 @media screen and (max-width: 1279px) {
   .animated-txt {
     opacity: 0;
-    -webkit-transform: translateY(50px);
-            transform: translateY(50px);
+    -webkit-transform: translateY(90px);
+            transform: translateY(90px);
     -webkit-transition: 0.6s all ease-in-out;
     transition: 0.6s all ease-in-out;
   }
@@ -5944,8 +5940,8 @@ span.fades {
   }
   .animated-btn1 {
     opacity: 0;
-    -webkit-transform: translateY(50px);
-            transform: translateY(50px);
+    -webkit-transform: translateY(90px);
+            transform: translateY(90px);
     -webkit-transition: 0.6s all ease-in-out;
     transition: 0.6s all ease-in-out;
   }
@@ -5956,8 +5952,8 @@ span.fades {
   }
   .animated-btn2 {
     opacity: 0;
-    -webkit-transform: translateY(50px);
-            transform: translateY(50px);
+    -webkit-transform: translateY(80px);
+            transform: translateY(80px);
     -webkit-transition: 0.6s all ease-in-out;
     transition: 0.6s all ease-in-out;
   }
@@ -6000,8 +5996,8 @@ span.fades {
   }
   .animated-txt-work {
     opacity: 0;
-    -webkit-transform: translateY(50px);
-            transform: translateY(50px);
+    -webkit-transform: translateY(90px);
+            transform: translateY(90px);
     -webkit-transition: 0.8s all ease-in-out;
     transition: 0.8s all ease-in-out;
   }
@@ -6012,8 +6008,8 @@ span.fades {
   }
   .animated-skills-txt {
     opacity: 0;
-    -webkit-transform: translateY(-50px);
-            transform: translateY(-50px);
+    -webkit-transform: translateY(-90px);
+            transform: translateY(-90px);
     -webkit-transition: 0.8s all ease-in-out;
     transition: 0.8s all ease-in-out;
   }
@@ -6024,8 +6020,8 @@ span.fades {
   }
   .animated-skills-card-1 {
     opacity: 0;
-    -webkit-transform: translateY(-50px);
-            transform: translateY(-50px);
+    -webkit-transform: translateY(-90px);
+            transform: translateY(-90px);
     -webkit-transition: 0.8s all ease-in-out;
     transition: 0.8s all ease-in-out;
   }
@@ -6036,8 +6032,8 @@ span.fades {
   }
   .animated-skills-card-2 {
     opacity: 0;
-    -webkit-transform: translateY(50px);
-            transform: translateY(50px);
+    -webkit-transform: translateY(90px);
+            transform: translateY(90px);
     -webkit-transition: 1s all ease-in-out;
     transition: 1s all ease-in-out;
   }
@@ -6048,8 +6044,8 @@ span.fades {
   }
   .animated-skills-card-3 {
     opacity: 0;
-    -webkit-transform: translateY(-40px);
-            transform: translateY(-40px);
+    -webkit-transform: translateY(-80px);
+            transform: translateY(-80px);
     -webkit-transition: 1.2s all ease-in-out;
     transition: 1.2s all ease-in-out;
   }
@@ -6099,8 +6095,8 @@ span.fades {
   }
   .animated-work-card-1 {
     opacity: 0;
-    -webkit-transform: translateY(-40px);
-            transform: translateY(-40px);
+    -webkit-transform: translateY(-80px);
+            transform: translateY(-80px);
     -webkit-transition: .8s all ease-in-out;
     transition: .8s all ease-in-out;
   }
@@ -6111,8 +6107,8 @@ span.fades {
   }
   .animated-work-card-2 {
     opacity: 0;
-    -webkit-transform: translateY(-40px);
-            transform: translateY(-40px);
+    -webkit-transform: translateY(-90px);
+            transform: translateY(-90px);
     -webkit-transition: 1.4s all ease-in-out;
     transition: 1.4s all ease-in-out;
   }
@@ -6123,8 +6119,8 @@ span.fades {
   }
   .animated-work-card-3 {
     opacity: 0;
-    -webkit-transform: translateY(40px);
-            transform: translateY(40px);
+    -webkit-transform: translateY(80px);
+            transform: translateY(80px);
     -webkit-transition: .8s all ease-in-out;
     transition: .8s all ease-in-out;
   }
@@ -6135,8 +6131,8 @@ span.fades {
   }
   .animated-about2 {
     opacity: 0;
-    -webkit-transform: translateY(-40px);
-            transform: translateY(-40px);
+    -webkit-transform: translateY(-80px);
+            transform: translateY(-80px);
     -webkit-transition: 0.8s all ease-in-out;
     transition: 0.8s all ease-in-out;
   }
@@ -6147,8 +6143,8 @@ span.fades {
   }
   .animated-contact-txt {
     opacity: 0;
-    -webkit-transform: translateY(60px);
-            transform: translateY(60px);
+    -webkit-transform: translateY(120px);
+            transform: translateY(120px);
     -webkit-transition: 0.8s all ease-in-out;
     transition: 0.8s all ease-in-out;
   }
@@ -6159,8 +6155,8 @@ span.fades {
   }
   .animated-contact-txt-2 {
     opacity: 0;
-    -webkit-transform: translateY(50px);
-            transform: translateY(50px);
+    -webkit-transform: translateY(90px);
+            transform: translateY(90px);
     -webkit-transition: 0.8s all ease-in-out;
     transition: 0.8s all ease-in-out;
   }
@@ -6171,8 +6167,8 @@ span.fades {
   }
   .animated-contact-icon1 {
     opacity: 0;
-    -webkit-transform: translateY(50px);
-            transform: translateY(50px);
+    -webkit-transform: translateY(90px);
+            transform: translateY(90px);
     -webkit-transition: 0.8s all ease-in-out;
     transition: 0.8s all ease-in-out;
   }
@@ -6183,8 +6179,8 @@ span.fades {
   }
   .animated-contact-icon2 {
     opacity: 0;
-    -webkit-transform: translateY(-50px);
-            transform: translateY(-50px);
+    -webkit-transform: translateY(-90px);
+            transform: translateY(-90px);
     -webkit-transition: 0.8s all ease-in-out;
     transition: 0.8s all ease-in-out;
   }
@@ -6195,8 +6191,8 @@ span.fades {
   }
   .animated-contact-icon3 {
     opacity: 0;
-    -webkit-transform: translateY(50px);
-            transform: translateY(50px);
+    -webkit-transform: translateY(90px);
+            transform: translateY(90px);
     -webkit-transition: 0.8s all ease-in-out;
     transition: 0.8s all ease-in-out;
   }

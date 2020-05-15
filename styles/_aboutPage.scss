@@ -465,8 +465,8 @@
     }
 
     .skills-card:hover {
-        margin-top: -30px;
-        transition: 0.4s;
+        margin-top: 0px;
+        //transition: 0.4s;
         
         .skills-card-margined {
             .skills-card-content-wrapp {
@@ -479,7 +479,7 @@
                     .skills-card-icon-wrapp {
                         i {
                             color: $color6;
-                            transition: 0.6s;
+                            //transition: 0.6s;
                         }
                     }
                 }
@@ -1130,7 +1130,7 @@
     .skills-card:hover {
         margin-top: 0px;
         transition: 0.4s;
-        
+       
         .skills-card-margined {
             .skills-card-content-wrapp {
                 .skills-card-content-2 {
