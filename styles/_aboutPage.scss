@@ -292,15 +292,13 @@
 
     .about-wrapp-container {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-end;
+        align-items: flex-end;
     }
 
     #about-page2 {
         //height: 180vh;
-
-        min-height: 2600px;
-        max-height: 5000px;
+        height: 4000px;
         //background: $color5;
         background: $color2;
         display: flex;

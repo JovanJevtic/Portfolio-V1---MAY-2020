@@ -612,13 +612,10 @@ span.fades {
   .landing-page {
     height: 90vh;
     width: 100%;
-    background: url(/assets/bg.jpg);
     background-size: cover;
     background-position: center;
   }
   .landing-page .landing-page-opacity {
-    background: #181818;
-    opacity: 0.9;
     position: absolute;
     height: 90vh;
     width: 100%;
@@ -752,14 +749,11 @@ span.fades {
   .landing-page {
     height: 150vh;
     width: 100%;
-    background: url(/assets/bg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
   .landing-page .landing-page-opacity {
-    background: #181818;
-    opacity: 0.9;
     position: absolute;
     height: 150vh;
     width: 100%;
@@ -907,14 +901,11 @@ span.fades {
   .landing-page {
     height: 180vh;
     width: 100%;
-    background: url(/assets/bg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
   .landing-page .landing-page-opacity {
-    background: #181818;
-    opacity: 0.9;
     position: absolute;
     height: 180vh;
     width: 100%;
@@ -1066,15 +1057,11 @@ span.fades {
     max-height: 180vh;
     min-height: 180vh;
     width: 100%;
-    background: url(/assets/bg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background: #181818;
   }
   .landing-page .landing-page-opacity {
-    background: #181818;
-    opacity: 0.9;
     position: absolute;
     height: 210vh;
     width: 100%;
@@ -1640,16 +1627,15 @@ span.fades {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
   }
   #about-page2 {
-    min-height: 2600px;
-    max-height: 5000px;
+    height: 4000px;
     background: #181818;
     display: -webkit-box;
     display: -ms-flexbox;
