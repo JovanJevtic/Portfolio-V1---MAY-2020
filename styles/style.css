@@ -1054,8 +1054,8 @@ span.fades {
     overflow-x: hidden;
   }
   .landing-page {
-    max-height: 180vh;
-    min-height: 180vh;
+    max-height: 200vh;
+    min-height: 200vh;
     width: 100%;
     background-size: cover;
     background-position: center;
