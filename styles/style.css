@@ -1870,8 +1870,8 @@ span.fades {
             align-items: center;
   }
   .about-skills-card-container .skills-card {
-    height: 90%;
-    width: 95%;
+    height: 80%;
+    width: 85%;
     border-radius: 2px;
     background: #141413;
     -webkit-box-shadow: 3px 3px 7px 3px #0d0c0a;
@@ -3483,7 +3483,6 @@ span.fades {
     height: 85%;
     -webkit-box-shadow: 0 14px 28px #0d0c0a, 0 10px 10px #0d0c0a;
             box-shadow: 0 14px 28px #0d0c0a, 0 10px 10px #0d0c0a;
-    border-radius: 10px;
     background: #1d1c19;
   }
   .card .content {
@@ -3623,7 +3622,6 @@ span.fades {
     height: 80%;
     -webkit-box-shadow: 0 14px 28px #0d0c0a, 0 10px 10px #0d0c0a;
             box-shadow: 0 14px 28px #0d0c0a, 0 10px 10px #0d0c0a;
-    border-radius: 10px;
     background: #1d1c19;
     min-width: 400px;
   }
@@ -3764,7 +3762,6 @@ span.fades {
     height: 80%;
     -webkit-box-shadow: 0 14px 28px #0d0c0a, 0 10px 10px #0d0c0a;
             box-shadow: 0 14px 28px #0d0c0a, 0 10px 10px #0d0c0a;
-    border-radius: 10px;
     background: #1d1c19;
     max-width: 420px;
   }
@@ -3905,7 +3902,6 @@ span.fades {
     height: 85%;
     -webkit-box-shadow: 0 14px 28px #0d0c0a, 0 10px 10px #0d0c0a;
             box-shadow: 0 14px 28px #0d0c0a, 0 10px 10px #0d0c0a;
-    border-radius: 10px;
     background: #1d1c19;
     max-width: 420px;
   }
@@ -5503,7 +5499,7 @@ span.fades {
   }
   .contact-socialmedia-2 ul li a i {
     color: #f2ebdd;
-    font-size: 32px;
+    font-size: 34px;
   }
   .contact-socialmedia-2 ul li a i:hover {
     -webkit-transition: 0.6s;

@@ -52,7 +52,7 @@ function textAnimation () {
     const landingImg = document.querySelector('#landing-img');
 }   
   
-setTimeout(textAnimation, 50);
+setTimeout(textAnimation, 0);
 
 
 function scrollAppearTxt1() {
